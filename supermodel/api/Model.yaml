@@ -1,0 +1,17 @@
+$id: http://supermodel.io/supermodel/api/Model
+
+title: Model
+type: object
+description: Model resource representation in RESTful JSON format
+
+properties:
+  url:
+    type: string
+    description: self relation, id of the model
+
+  name:
+    $ref: http://supermodel.io/supermodel/core/Model#/properties/name
+
+  schema:
+    $ref: http://supermodel.io/supermodel/core/Model#/properties/schema
+

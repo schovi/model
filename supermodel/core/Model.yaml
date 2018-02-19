@@ -1,0 +1,22 @@
+$id: http://supermodel.io/supermodel/core/Model
+
+title: Model
+type: object
+description: Model in Supermodel. It usualy comprises of one schema without additional definitons.
+
+properties:
+  name:
+    type: string
+    description: Name of the model
+
+  description:
+    type: string
+    description: Description of the model (Markdown)
+
+  id:
+    type: string
+    description: Id (URI) of the model
+
+  schema:
+    type: string
+    description: Text buffer containing the source JSON Schema representation always in the YAML format
