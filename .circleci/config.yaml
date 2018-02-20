@@ -28,6 +28,8 @@ jobs:
 
       - run: yarn install
 
+      - run: npm i -g supermodel
+
       - save_cache:
           paths:
             - node_modules
