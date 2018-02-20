@@ -4,7 +4,7 @@
   "description": "Supermodel.io data model",
   "main": "index.js",
   "scripts": {
-    "test": "supermodel validate-schema ./supermodel/api/Model.yaml"
+    "test": "supermodel validate-schema supermodel/all-layers.yaml"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,21 @@
+$id: http://supermodel.io/supermodel/all-layers
+
+title: All Layers Test
+description: Artifical testing model to pull in every model & layer for validation
+type: object
+
+properties:
+  APIModel:
+    $ref: api/Model
+
+  CoreModel:
+    $ref: core/Model
+
+  CoreLayer:
+    $ref: core/Layer
+
+  CollaborationUser:
+    $ref: collaboration/User
+
+  CollaborationTeam:
+    $ref: collaboration/Team
