@@ -12,6 +12,18 @@ properties:
   name:
     $ref: http://supermodel.io/supermodel/core/Model#/properties/name
 
+  description:
+    $ref: http://supermodel.io/supermodel/core/Model#/properties/description
+
   schema:
     $ref: http://supermodel.io/supermodel/core/Model#/properties/schema
 
+required:
+- url
+- schema
+
+examples:
+- url: http://supermodel.io/acmecorp/shopping-cart/Order
+  name: Order
+  schema: '$id: http://supermodel.io/acmecorp/shopping-cart/Order\ntitle:
+    Order\ntype: object'
