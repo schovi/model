@@ -1,0 +1,19 @@
+{
+  "name": "model",
+  "version": "0.1.0",
+  "description": "Supermodel.io data model",
+  "main": "index.js",
+  "scripts": {
+    "test": "supermodel validate-schema ./supermodel/api/Model.yaml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supermodel/model.git"
+  },
+  "author": "Zdenek Nemec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supermodel/model/issues"
+  },
+  "homepage": "https://github.com/supermodel/model#readme"
+}
