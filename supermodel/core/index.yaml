@@ -8,4 +8,4 @@ definitions:
     $ref: http://supermodel.io/supermodel/core/Layer
 
   'http://supermodel.io/supermodel/core/Model':
-    $ref: http://supermodel.io/supermodel/core/Layer
+    $ref: http://supermodel.io/supermodel/core/Model
